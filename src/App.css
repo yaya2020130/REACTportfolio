@@ -99,3 +99,56 @@ color:white;
   font-size: 66px;
   padding-right: 5rem;
 }
+
+
+
+
+
+
+
+
+{/*stylying for about me */}
+
+
+.aboutme-body{
+  margin:auto;
+  background:red;
+  position:fixed;
+  Width:100%;
+  height:100%;
+  justify-content:center;
+ padding-top:2em;
+}
+.aboutme-grid{
+  text-align:center;
+  justify-content:center;
+  width:80%;
+  height:550px;
+  background:white;
+  color:black;
+  border:2px solid brown;
+  margin-bottom:20px;
+
+}
+.contact-grid h1{
+  font-family:'anton',san-serif;
+}
+.contact-grid p{
+  font-family:'oxygen',san-serif;
+  font-weight:bold;
+}
+.contact-grid hr{
+  border-top:5px dotted black;
+  width:50%;
+  margin:auto;
+}
+
+
+
+
+.resume-right-col{
+  background:salmon;
+  color: white;
+  padding:2em;
+ }
+ 

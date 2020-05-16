@@ -19,7 +19,7 @@ import css from './App.css'
 
             </Navigation>
         </Header>
-        <Drawer title="Title">
+        <Drawer title="My Portfolio">
             <Navigation>
             <Link to="/AboutMe">AboutMe</Link>
                 <Link to="/resume">Resume</Link>
