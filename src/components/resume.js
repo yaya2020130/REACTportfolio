@@ -12,7 +12,7 @@ class Resume extends React.Component {
           <Cell col={4} >
             <div styel={{ textAlign: 'center' }}>
               <img
-                src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/malecostume-512.png"
+                src="yared.jpeg"
                 alt="avatar"
                 style={{ height: '200px' }}
               />
@@ -20,7 +20,7 @@ class Resume extends React.Component {
             </div>
             <h2 styel={{ paddingTop: '2em' }}> Yared Anbesie</h2>
             <h4 style={{ color: 'grey' }}></h4>  <hr style={{ borderTop: '3px solid green', width: '50%' }} />
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</p>
+            <p> A full stack web developer with vast array of knowledge in many different front end and back end languages, responsive framework, databases and a good practice in coding with a background in Mechanical Engineering and life-long dedication to learning. Effective at combining creativity and problem solving to develop user-friendly applications. Known among staff for having strong communication skill and attention to detail no matter the complexity of the project or the situation.  </p>
             <hr style={{ borderTop: '3px solid green', width: '50%' }} />
             <h5>Address</h5>
             <p> 3749 s 160th ln seatac wa</p>
@@ -38,14 +38,14 @@ class Resume extends React.Component {
               startYear={2007}
            endYear={2012}
            schoolName="Addis Ababa University"
-           schoolDescription="The Addis Ababa Institute of Technology (AAiT), which was established about 60 years ago, is the leading Institute of Technology in Ethiopia.At present, it is functioning with special autonomy from Addis Ababa University. It has a Supervisory Board, which is the highest governing body. The Institute is led by a Scientific Director with the rank of University Vice President."
+           schoolDescription="The Addis Ababa Institute of Technology (AAiT), which was established about 60 years ago, is the leading Institute of Technology in Ethiopia.At present, it is functioning with special autonomy from Addis Ababa University. It has a Supervisory Board, which is the highest governing body."
            />
 
          <Education
               startYear={2020}
-           endYear={2020}
-           schoolName="Addis Ababa UniversityUniversity of washington Coding Bootcamp"
-           schoolDescription="University of Washington Coding Boot Camp equips students with the core skills needed for a career in web development and technology through engaging classes."
+              endYear={2020}
+              schoolName="University of washington Coding Bootcamp"
+              schoolDescription="University of Washington Coding Boot Camp equips students with the core skills needed for a career in web development and technology through engaging classes."
            />
            <hr style={{borderTop:'3px solid#22947'}}/>
 
@@ -53,8 +53,28 @@ class Resume extends React.Component {
            <Experience
            startYear={2018}
            endYear={2020}
-           jobName={"Home appliance technician"}
-           job description ={"Maintaining home apliances"}
+           companyName="SEARS"
+           jobName="Home appliance technician"
+           jobDescription ="Worked for sears for one year and half .worked mainly on repairing and installing home appliances such as all sort of ovens ,Diswashers and Microwaves"
+
+   
+           />
+                    <Experience
+           startYear={2018}
+           
+           companyName="AMAZON"
+           jobName="technecian"
+           jobDescription ="worked in the fulfilment center for twomonths .Helped the maintenance department in rapairing the following industial machineries :-
+           conveyers,motors,pneumatics systmes for different machineries"
+           />
+
+<Experience
+           startYear={2014}
+           endYear={2016}
+           companyName="Northern Dependant"
+           jobName="Apparentice Engineer"
+           jobDescription ="worked on three differnt ships as apparentice engineer and have done the following things:-
+           maintaing and attending marine machineries such as boilers , compressors, pumps,purifires,heaters,condensors,replenshing refrigerants e.t.c"
 
    
            />

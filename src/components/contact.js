@@ -6,7 +6,7 @@ class Contact extends React.Component {
       <div className="contact-body">
         <Grid className="contact-grid">
           <Cell col={6}><h3>Yared Anbesie Gebrie</h3>
-            <img src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/malecostume-512.png"
+            <img src="yared.jpeg"
               alt="avatar" styling={{ height: '30px' }} className="avatar-img">
 
             </img>

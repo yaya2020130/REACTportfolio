@@ -3,16 +3,19 @@ import { Grid, Cell } from 'react-mdl'
 
 
 
-class Experince extends Component {
+class Experience extends Component {
   render() {
     return (
       <Grid>
         <Cell col={4}>
           <p> {this.props.startYear} - {this.props.endYear}</p>
         </Cell>
-        <Cell col={8}>
+        <Cell 
+        col={8}>
+           <h4> {this.props.companyName} </h4>
           <h4 style={{ marginTop: '0px' }}>{this.props.jobName}</h4>
           <p> {this.props.jobDescription} </p>
+          
         </Cell>
 
 
@@ -20,4 +23,4 @@ class Experince extends Component {
     )
   }
 }
-export default Experince;
+export default Experience;

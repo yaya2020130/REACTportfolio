@@ -107,12 +107,11 @@ color:white;
 
 
 
-{/*stylying for about me */}
 
 
 .aboutme-body{
   margin:auto;
-  background:red;
+  background:gray;
   position:fixed;
   Width:100%;
   height:100%;
@@ -126,7 +125,7 @@ color:white;
   height:550px;
   background:white;
   color:black;
-  border:2px solid brown;
+  border:2px solid gray;
   margin-bottom:20px;
 
 }
@@ -151,4 +150,71 @@ color:white;
   color: white;
   padding:2em;
  }
- 
+ #cardtitle{
+  background: #1D976C;  
+  background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);  
+  background: linear-gradient(to right, #93F9B9, #1D976C); 
+ }
+ .g-card-image{
+width:200px
+ }
+ .Carousel{
+   width: 800px;
+ }
+
+ .App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.h {
+  background-color: #282c34;
+  height:100%vp;
+width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: slateblue;
+  
+  
+}
+.justify-content-around {
+  justify-content: space-around ;
+}
+.gh1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+} 
+.d{width:50vh}
+.p{width:"900px";}
+.font-weight-bolder {
+  font-weight: bolder ;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} 
+

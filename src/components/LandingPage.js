@@ -9,6 +9,8 @@ class LandingPage extends React.Component {
           <Cell col={12}>
             <img
               src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/malecostume-512.png"
+            src="yared.jpeg"
+
               alt="avatar"
               className="avatar-img"
             />
